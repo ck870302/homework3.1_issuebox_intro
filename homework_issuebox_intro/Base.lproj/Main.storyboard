@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -38,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986.25" y="1195.7746478873239"/>
+            <point key="canvasLocation" x="724" y="893"/>
         </scene>
         <!--關於議題箱-->
         <scene sceneID="AsU-Lw-TgP">
@@ -72,13 +71,52 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://issueboxtw.wixsite.com/issuebox" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hEA-zm-cAr">
+                                <rect key="frame" x="271" y="38" width="24" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="youtube" translatesAutoresizingMaskIntoConstraints="NO" id="LDV-ws-3oB">
-                                <rect key="frame" x="246" y="38" width="27" height="28"/>
+                                <rect key="frame" x="268" y="38" width="27" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fb" translatesAutoresizingMaskIntoConstraints="NO" id="DMA-FE-tNs">
-                                <rect key="frame" x="216" y="38" width="27" height="28"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://www.facebook.com/issuebox.tw/" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I2b-aM-D31">
+                                <rect key="frame" x="242" y="37" width="21" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fb" translatesAutoresizingMaskIntoConstraints="NO" id="DMA-FE-tNs">
+                                <rect key="frame" x="239" y="38" width="27" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://issueboxtw.wixsite.com/issuebox" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Rj-i6-WbN">
+                                <rect key="frame" x="207" y="37" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo01" translatesAutoresizingMaskIntoConstraints="NO" id="KLj-4k-x6k">
+                                <rect key="frame" x="207" y="37" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -88,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nYQ-Le-tPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="984.375" y="1988.0281690140846"/>
+            <point key="canvasLocation" x="723.75" y="1722.8873239436621"/>
         </scene>
         <!--最後的信函-->
         <scene sceneID="rcN-gk-hIw">
@@ -290,7 +328,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7G-Da-hMo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="210" y="2047.1830985915494"/>
+            <point key="canvasLocation" x="-60" y="1870"/>
         </scene>
         <!--遊戲介紹-->
         <scene sceneID="fHi-Y0-s01">
@@ -343,7 +381,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I3E-mP-nyJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1728.75" y="1195.7746478873239"/>
+            <point key="canvasLocation" x="1526" y="893"/>
         </scene>
         <!--交通資訊-->
         <scene sceneID="8UQ-cn-wCS">
@@ -379,6 +417,15 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="台北市大安區仁愛路三段55號" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JR1-O5-X0v">
+                                                    <rect key="frame" x="15" y="36" width="304" height="77"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    <dataDetectorType key="dataDetectorTypes" address="YES"/>
+                                                </textView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -470,7 +517,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b7Z-zG-XXr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-594" y="1713"/>
+            <point key="canvasLocation" x="-1820.625" y="1732.3943661971832"/>
         </scene>
         <!--table背景-->
         <scene sceneID="fHu-CY-1bx">
@@ -500,7 +547,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mNW-VP-fyV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1809" y="1417"/>
+            <point key="canvasLocation" x="-795" y="1880"/>
         </scene>
         <!--最後的信函-->
         <scene sceneID="sQY-Ab-iCW">
@@ -519,7 +566,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9PF-hM-HM5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11" y="443"/>
+            <point key="canvasLocation" x="-129" y="893"/>
         </scene>
         <!--Item-->
         <scene sceneID="SfH-Ez-qRl">
@@ -538,7 +585,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DVj-xU-Cfa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2559" y="1417"/>
+            <point key="canvasLocation" x="-1646" y="2478"/>
         </scene>
         <!--table背景-->
         <scene sceneID="7OS-DK-phw">
@@ -568,7 +615,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTT-Og-JNJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1446" y="2359"/>
+            <point key="canvasLocation" x="-2608" y="1723"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rKE-Se-fBE">
@@ -586,7 +633,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="93d-jo-MMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2316" y="2639"/>
+            <point key="canvasLocation" x="-2608" y="893"/>
         </scene>
     </scenes>
     <resources>
@@ -595,6 +642,7 @@
         <image name="car-side-7" width="30" height="30"/>
         <image name="email-7" width="30" height="30"/>
         <image name="fb" width="78" height="78"/>
+        <image name="logo01" width="2649" height="2636"/>
         <image name="server-7" width="30" height="30"/>
         <image name="youtube" width="78" height="78"/>
         <image name="慈謙" width="316" height="434"/>
@@ -604,7 +652,7 @@
         <image name="陳彤" width="316" height="382"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kDY-oZ-ejH"/>
-        <segue reference="8Mh-Ov-xrN"/>
+        <segue reference="gQl-Pw-Qrl"/>
+        <segue reference="wx2-5Z-YqA"/>
     </inferredMetricsTieBreakers>
 </document>
